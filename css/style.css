@@ -22,7 +22,7 @@
 	{
 	font-family: "Source Sans Pro";
 	font-weight: 300;
-	color: #404142;
+	color: solid 5px #404142;
 	}
 	
 	h1,h2,h3,h4,h5,h6
@@ -185,8 +185,8 @@
 			
 			.image-centered
 			{
-				display: block;
-				margin: 0 0 2em 0;
+	display: block;
+	margin: 0 5em 2em 0;
 			}
 
 				.image-centered img
@@ -1087,9 +1087,9 @@
 	
 	#header
 	{
-		position: relative;
-		border-bottom: solid 2px #e5e5e5;
-		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+	position: relative;
+	border-bottom: solid 2px #404142;
+	box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 	}
 
 		#header h1

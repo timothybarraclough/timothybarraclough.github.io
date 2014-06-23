@@ -14,20 +14,21 @@
 
 	body
 	{
-		background: #f0f0f0;
+		//background: #215180;
+		background: #D1D3D4
 	}
 
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #777;
+	font-family: "Source Sans Pro";
+	font-weight: 300;
+	color: #404142;
 	}
 	
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 600;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		color: #888;
 	}
 	
@@ -61,13 +62,13 @@
 	
 		a:hover
 		{
-			color: #ed786a;
-			border-bottom-color: rgba(255,255,255,0);
+	color: #666;
+	border-bottom-color: rgba(255,255,255,0);
 		}
 		
 		a:hover strong
 		{
-			color: #ed786a;
+			color: #D1D3D4;
 		}
 
 	strong, b
@@ -115,7 +116,7 @@
 	
 	p, ul, ol, dl, table, blockquote
 	{
-		margin-bottom: 2em;
+	margin-bottom: 0em;
 	}
 
 	br.clear
@@ -444,22 +445,22 @@
 		
 		.button
 		{
-			position: relative;
-			display: inline-block;
-			background: #ed786a;
-			color: #fff !important;
-			text-transform: uppercase;
-			border-radius: 4px;
-			border: 0;
-			font-size: 1em;
-			box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
-			font-weight: 600;
-			-moz-transition: all 0.25s ease-in-out;
-			-webkit-transition: all 0.25s ease-in-out;
-			-o-transition: all 0.25s ease-in-out;
-			-ms-transition: all 0.25s ease-in-out;
-			transition: all 0.25s ease-in-out;
-			text-align: center;
+	position: relative;
+	display: inline-block;
+	color: #fff !important;
+	text-transform: uppercase;
+	border-radius: 4px;
+	border: 0;
+	font-size: 1em;
+	box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
+	font-weight: 600;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+	text-align: center;
+	background-color: #404142;
 		}
 
 			.button.fa:before
@@ -472,12 +473,12 @@
 
 			.button:hover
 			{
-				background: #fd887a;
+				background: #606162;
 			}
 			
 			.button:active
 			{
-				background: #ed786a;
+				background: 4604142;
 			}
 		
 			.button-alt
@@ -967,15 +968,17 @@
 
 		#header-wrapper p
 		{
-			text-align: center;
+	text-align: right;
 		}
 	
 	#banner-wrapper
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
-		color: #fff;
+		//background: #fff;
+		background: #D1D3D4
+		//color: #fff;
+		color: #D1D3D4
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
 		border-bottom: solid 2px #e5e5e5;
@@ -997,7 +1000,8 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		//background: #fff;
+		background: #D1D3D4;
 		text-align: center;
 	}
 	
@@ -1015,7 +1019,8 @@
 	{
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #D1D3D4;
+		//background: #fff;
 	}
 	
 	#footer-wrapper
@@ -1023,21 +1028,24 @@
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: #D1D3D4;
+		//background: #f0f0f0;
 	}
 	
 		#footer-wrapper form input.text,
 		#footer-wrapper form select,
 		#footer-wrapper form textarea
 		{
-			background: #f7f7f7;
+		//	background: #f7f7f7;
+			background: #D1D3D4;
 		}
 		
 			#footer-wrapper form input.text:focus,
 			#footer-wrapper form select:focus,
 			#footer-wrapper form textarea:focus
 			{
-				background: #fff;
+				//background: #fff;
+				background: #D1D3D4;
 			}
 		
 		#footer-wrapper h2
@@ -1060,7 +1068,7 @@
 		{
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #414042;
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		}
 
@@ -1102,11 +1110,12 @@
 				#nav > ul > li > a:before
 				{
 					display: inline-block;
-					background: #878787;
+					background: #D1D3D4;
 					color: #e4e4e4;
 					width: 1.65em;
 					height: 1.65em;
 					border-radius: 1.65em;
+					border-bottom: 0em;
 					line-height: 1.65em;
 					text-align: center;
 					box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
@@ -1140,14 +1149,14 @@
 					#nav > ul > li.active > a:before,
 					#nav > ul > li:hover > a:before
 					{
-						background: #ED786A;
+						background: #404142;
 						color: #fff;
 					}
 			
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color: #ED786A;
+						color: #D1D3D4;
 					}
 
 /*********************************************************************************/

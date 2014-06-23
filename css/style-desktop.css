@@ -10,8 +10,8 @@
 
 	body,input,textarea,select
 	{
-		line-height: 1.65em;
-		font-size: 13pt;
+	line-height: 1.65em;
+	font-size: 13pt;
 	}
 
 	h2
@@ -141,7 +141,10 @@
 	
 	#footer-wrapper
 	{
-		padding: 6em 0 8em 0;
+	padding-top: 0em;
+	padding-right: 0;
+	padding-bottom: 0em;
+	padding-left: 0;
 	}
 
 /*********************************************************************************/
@@ -150,7 +153,10 @@
 
 	#header
 	{
-		padding: 14em 0 7em 0;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 0em;
+	padding-left: 0px;
 	}
 	
 		#header h1
@@ -161,9 +167,12 @@
 		
 		#header p
 		{
-			margin: 2.5em 0 0 0;
-			font-size: 0.85em;
-			letter-spacing: 3px;
+	font-size: 0.85em;
+	letter-spacing: 3px;
+	margin-top: 1em;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
 		}
 
 /*********************************************************************************/
@@ -172,10 +181,10 @@
 
 	#nav
 	{
-		position: absolute;
-		top: 3em;
-		left: 0;
-		width: 100%;
+	position: absolute;
+	top: 54px;
+	left: -1px;
+	width: 100%;
 	}
 
 		#nav > ul > li
@@ -336,8 +345,14 @@
 		#content > section,
 		#content > article
 		{
-			margin: 5em 0 0 0;
-			padding: 5em 0 0 0;
+	margin-top: 0em;
+	margin-right: 5em;
+	margin-bottom: 0;
+	margin-left: 5em;
+	padding-top: 2em;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
 		}
 		
 		#content > section:first-child,
@@ -375,6 +390,6 @@
 
 	#copyright
 	{
-		margin-top: 6em;
-		padding-top: 4em;
+	margin-top: 2em;
+	padding-top: 0em;
 	}

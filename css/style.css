@@ -507,7 +507,7 @@
 	*/
 	text-align: left;
 	background-color: #D1D3D4;
-	margin: 10px;
+	margin: 0px;
 	padding-top: 0em;
 	padding-right: 0em;
 	padding-bottom: 0em;
@@ -1045,9 +1045,9 @@
 
 	#main-wrapper
 	{
-		position: relative;
-		overflow: hidden;
-		background: #D1D3D4;
+	position: relative;
+	overflow: hidden;
+	background: #FFF;
 		//background: #fff;
 	}
 	

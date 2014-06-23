@@ -10,6 +10,7 @@
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 0em;
+	background-color: #FFF;
 }article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
 
 /* Box Model */
@@ -75,13 +76,16 @@
 		.\-1u { margin-left: 8.3333333333% }
 
 		.row > * {
-			padding: 50px 0 0 50px;
-			float: left;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			-o-box-sizing: border-box;
-			-ms-box-sizing: border-box;
-			box-sizing: border-box;
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-right: 3em;
+	padding-bottom: 0;
+	padding-left: 50px;
 		}
 
 		.row + .row > * {

@@ -15,7 +15,7 @@
 	body
 	{
 		//background: #215180;
-		background: #D1D3D4
+	background: #FFFFFF
 	}
 
 	body,input,textarea,select
@@ -1053,10 +1053,10 @@
 	
 	#footer-wrapper
 	{
-		position: relative;
-		overflow: hidden;
-		border-top: solid 2px #e5e5e5;
-		background: #D1D3D4;
+	position: relative;
+	overflow: hidden;
+	border-top: solid 2px #e5e5e5;
+	background: #FFF;
 		//background: #f0f0f0;
 	}
 	
@@ -1267,6 +1267,8 @@
 
 	#copyright
 	{
-		border-top: solid 2px #e5e5e5;
-		text-align: center;
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #404142;
 	}

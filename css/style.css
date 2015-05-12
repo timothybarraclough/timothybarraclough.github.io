@@ -37,7 +37,7 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 600;
-		text-transform: lowercase;
+		/*text-transform: lowercase;*/
 		color: #888;
 	}
 	
@@ -1101,7 +1101,7 @@
 		#header h1
 		{
 			/*font-family: 'Lato-Bold';*/
-			font-weight: 800;
+			font-weight: 1000;
 			color: #414042;
 			/*text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);*/
 		}

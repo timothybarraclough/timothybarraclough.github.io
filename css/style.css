@@ -1,7 +1,16 @@
 @charset 'UTF-8';
-
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
+@font-face {
+        font-family: "Lato Black";
+        src: url('698242188-Lato-Bla.eot');
+        src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'),
+        url('698242188-Lato-Bla.svg#Lato Black') format('svg'),
+        url('698242188-Lato-Bla.woff') format('woff'),
+        url('698242188-Lato-Bla.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+/*@font-face{font-family:'FontAwesome';src:url('font/Lato_Bold.eot?v=4.0.1');src:url('font/Lato_Bold.eot?#iefix&v=4.0.1') format('embedded-opentype'),url(!'font/Lato_Bold.woff?v=4.0.1') format('woff'),url('font/Lato_Bold.ttf?v=4.0.1') format('truetype'),url('font/Lato_Bold.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+*/
 /*
 	Strongly Typed 1.1 by HTML5 UP
 	html5up.net | @n33co
@@ -183,7 +192,7 @@
 			.image-centered
 			{
 	display: block;
-	margin: 0 5em 2em 0;
+	margin: 0 2em 2em 0;
 			}
 
 				.image-centered img
@@ -1091,10 +1100,10 @@
 
 		#header h1
 		{
-			font-family: 'Arvo';
-			font-weight: 700;
+			/*font-family: 'Lato-Bold';*/
+			font-weight: 800;
 			color: #414042;
-			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
+			/*text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);*/
 		}
 
 			#header h1 a
